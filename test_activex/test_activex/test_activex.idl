@@ -1,0 +1,51 @@
+// test_activex.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(test_activex.tlb)，该类型库将成为
+// test_activex.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(D73D0B09-DAA6-4076-95A9-F0995BA3BDB1), version(1.0),
+  control ]
+library test_activexLib
+{
+	importlib(STDOLE_TLB);
+
+	//  Ctest_activexCtrl 的主调度接口
+	[ 
+		uuid(94A191F0-D0D6-46ED-A82D-7BAA86280731)	
+	]
+	dispinterface _Dtest_activex
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Ctest_activexCtrl 的事件调度接口
+
+	[ 
+		uuid(3E382D9E-3FFF-433D-8717-5A60F8C7BD70)	
+	]
+	dispinterface _Dtest_activexEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  Ctest_activexCtrl 的类信息
+	[
+		uuid(458FE3FF-3843-49C6-802D-AC10D9769609)
+	]
+	coclass test_activex
+	{
+		[default] dispinterface _Dtest_activex;
+		[default, source] dispinterface _Dtest_activexEvents;
+	};
+
+};

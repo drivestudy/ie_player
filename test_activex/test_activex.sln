@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_activex", "test_activex\test_activex.vcxproj", "{1164E235-896B-4312-9E41-04D22F761716}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "file_encrypt_and_dencrypt", "file_encrypt_and_dencrypt\file_encrypt_and_dencrypt.vcxproj", "{428E9B3B-CEE7-427E-BBB0-31A2AE9CBF15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1164E235-896B-4312-9E41-04D22F761716}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1164E235-896B-4312-9E41-04D22F761716}.Debug|Win32.Build.0 = Debug|Win32
+		{1164E235-896B-4312-9E41-04D22F761716}.Release|Win32.ActiveCfg = Release|Win32
+		{1164E235-896B-4312-9E41-04D22F761716}.Release|Win32.Build.0 = Release|Win32
+		{428E9B3B-CEE7-427E-BBB0-31A2AE9CBF15}.Debug|Win32.ActiveCfg = Debug|Win32
+		{428E9B3B-CEE7-427E-BBB0-31A2AE9CBF15}.Debug|Win32.Build.0 = Debug|Win32
+		{428E9B3B-CEE7-427E-BBB0-31A2AE9CBF15}.Release|Win32.ActiveCfg = Release|Win32
+		{428E9B3B-CEE7-427E-BBB0-31A2AE9CBF15}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

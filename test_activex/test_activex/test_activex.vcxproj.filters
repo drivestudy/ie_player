@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="decrypt_relation">
+      <UniqueIdentifier>{d1c40720-64bb-4fb6-b03f-9fdb6c2ebe08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image_decrypt_show">
+      <UniqueIdentifier>{a0f78712-06ae-4dc3-8afc-4caa4be00ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="get_web_data_from_url">
+      <UniqueIdentifier>{3451706a-3a77-49fc-ae3a-d1b70eb5139c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="duilib">
+      <UniqueIdentifier>{a5f76a58-1af2-47d6-8d42-76c1a27e8d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="duilib\DuiFrameWnd">
+      <UniqueIdentifier>{774a143a-5ca4-44c3-b023-6568ee9db655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="duilib\MenuWnd">
+      <UniqueIdentifier>{98274883-771c-4064-8e8c-dee72f02f1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="duilib\PlayList">
+      <UniqueIdentifier>{9160a9a8-50fa-4021-b2de-293e5cfd9470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="duilib\VLC">
+      <UniqueIdentifier>{165066b4-c84b-4ea4-a0f4-d2e879609dde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_activex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_activexCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_activexPropPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="decrypt_relation.cpp">
+      <Filter>decrypt_relation</Filter>
+    </ClCompile>
+    <ClCompile Include="image_decrypt_show.cpp">
+      <Filter>image_decrypt_show</Filter>
+    </ClCompile>
+    <ClCompile Include="get_web_data_from_url.cpp">
+      <Filter>get_web_data_from_url</Filter>
+    </ClCompile>
+    <ClCompile Include="DuiFrameWnd.cpp">
+      <Filter>duilib\DuiFrameWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuWnd.cpp">
+      <Filter>duilib\MenuWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="AVPlayer.cpp">
+      <Filter>duilib\VLC</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayList.cpp">
+      <Filter>duilib\PlayList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test_activex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test_activexCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test_activexPropPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="decrypt_relation.h">
+      <Filter>decrypt_relation</Filter>
+    </ClInclude>
+    <ClInclude Include="image_decrypt_show.h">
+      <Filter>image_decrypt_show</Filter>
+    </ClInclude>
+    <ClInclude Include="get_web_data_from_url.h">
+      <Filter>get_web_data_from_url</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiFrameWnd.h">
+      <Filter>duilib\DuiFrameWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuWnd.h">
+      <Filter>duilib\MenuWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="AVPlayer.h">
+      <Filter>duilib\VLC</Filter>
+    </ClInclude>
+    <ClInclude Include="duilib.h">
+      <Filter>duilib</Filter>
+    </ClInclude>
+    <ClInclude Include="IImageDecryptShow.h">
+      <Filter>image_decrypt_show</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayList.h">
+      <Filter>duilib\PlayList</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test_activex.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="test_activex.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="test_activex.idl">
+      <Filter>源文件</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="test_activex.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="test_activexCtrl.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
