@@ -181,6 +181,15 @@ void Ctest_activexCtrl::OnDraw(CDC* pdc, const CRect& rcBounds, const CRect& rcI
 			}
 		}
 	}
+	else
+	{
+		CRect rect;
+		CBrush backBrush;
+		backBrush.CreateSolidBrush(RGB(255, 255, 255));
+		this->GetClientRect(&rect);
+		pdc->FillRect(&rect, &backBrush); //用FillRect成员函数利用笔刷填充指定区域
+		backBrush.DeleteObject();
+	}
 }
 
 
@@ -194,6 +203,7 @@ static char const* video_file_gather[] =
 	".mov",
 	".mpeg",
 	".flv",
+	".mkv",
 	"null"
 };
 
